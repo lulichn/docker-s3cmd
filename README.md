@@ -33,6 +33,19 @@ Supported option:
     2018-08-07 16:46  s3://another_bucket_name
     ```
 
+    OR
+
+    ```
+    $ docker run lulichn:s3cmd ls \
+        --access_key=ACCESS_KEY \
+        --secret_key=SECRET_KEY \
+        --host=HOSTNAME \
+        --host-bucket=HOST_BUCKET \
+        --region=REGION
+    2018-08-07 16:52  s3://bucket_name
+    2018-08-07 16:46  s3://another_bucket_name
+    ```
+
 * sync
 
     ```
